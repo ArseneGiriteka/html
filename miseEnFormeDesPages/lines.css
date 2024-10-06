@@ -1,0 +1,205 @@
+#global
+{
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	align-content: stretch;
+}
+#conteneur
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.element_one
+{
+	background-color: #888;
+	width: 100px;
+	padding: 40px;
+}
+
+.element_two
+{
+	background-color: #1F40DE;
+	width: 100px;
+	padding: 40px;
+}
+
+.element_three
+{
+	background-color: #11FFE8;
+	width: 100px;
+	padding: 40px;
+}
+
+#cb
+{
+	text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.cb_one
+{
+	background-color: #888;
+	width: 100px;
+	padding: 40px;
+}
+
+.cb_two
+{
+	background-color: #1F40DE;
+	width: 100px;
+	padding: 40px;
+}
+
+.cb_three
+{
+	background-color: #11FFE8;
+	width: 100px;
+	padding: 40px;
+}
+
+#cc
+{
+	text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.cc_one
+{
+	background-color: #888;
+	width: 100px;
+	padding: 40px;
+}
+
+.cc_two
+{
+	background-color: #1F40DE;
+	width: 100px;
+	padding: 40px;
+}
+
+.cc_three
+{
+	background-color: #11FFE8;
+	width: 100px;
+	padding: 40px;
+}
+
+#cd
+{
+	text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.cd_one
+{
+	background-color: #888;
+	width: 100px;
+	padding: 40px;
+}
+
+.cd_two
+{
+	background-color: #1F40DE;
+	width: 100px;
+	padding: 40px;
+}
+
+.cd_three
+{
+	background-color: #11FFE8;
+	width: 100px;
+	padding: 40px;
+}
+
+#ce
+{
+	text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.ce_one
+{
+	background-color: #888;
+	width: 100px;
+	padding: 40px;
+}
+
+.ce_two
+{
+	background-color: #1F40DE;
+	width: 100px;
+	padding: 40px;
+}
+
+.ce_three
+{
+	background-color: #11FFE8;
+	width: 100px;
+	padding: 40px;
+}
+
+#cf
+{
+	text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.cf_one
+{
+	background-color: #888;
+	width: 100px;
+	padding: 40px;
+}
+
+.cf_two
+{
+	background-color: #1F40DE;
+	width: 100px;
+	padding: 40px;
+}
+
+.cf_three
+{
+	background-color: #11FFE8;
+	width: 100px;
+	padding: 40px;
+}
+
+.cc_one
+{
+	order: 2;
+}
+
+.cc_two
+{
+	order: 3;
+}
+
+.cc_three
+{
+	order: 1;
+}
+
+.cd_one
+{
+	order: 2;
+}
+
+.cd_two
+{
+	order: 3;
+}
+
+.cd_three
+{
+	order: 1;
+	
+}

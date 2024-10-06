@@ -1,0 +1,27 @@
+@font-face
+{
+	font-family: "Italianno Regular";
+	src:url('Italianno-Regular-OTF.otf');
+}
+
+.introduction
+{
+	text-align: left;
+	font-weight: bold;
+	font-family: "Italianno Regular";
+	font-size: 3em;
+}
+
+.histoire_one
+{
+	font-size: 3em;
+	font-family: "Italianno Regular";
+	text-align: justify;
+}
+
+.foot
+{
+	text-align: right;
+	font-family: "Italianno Regular";
+	font-size: 3em;
+}

@@ -1,0 +1,14 @@
+nav
+{
+	vertical-align: top;
+	display: inline-block;
+	width: 150px;
+	border: 1px solid blue;
+}
+
+section
+{
+	vertical-align: top;
+	display: inline-block;
+	border: 1px solid black;
+}

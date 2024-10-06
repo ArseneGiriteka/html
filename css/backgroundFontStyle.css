@@ -1,0 +1,16 @@
+body
+{
+	background: url("D:serieux/html/drop_mini.jpg")scroll no-repeat top right,url("D:/serieux/html/images/eau.jpg") fixed;
+}
+
+h1
+{
+	font-weight: bold;
+	color: black;
+}
+
+.p_two
+{
+	background-image: url("D:/movie/dream.jpg");
+	background-repeat: repeat;
+}

@@ -1,0 +1,44 @@
+.again
+{
+	font-weight: bold;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+.oblique
+{
+	font-style: oblique;
+}
+
+.normal
+{
+	font-style: normal;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
+
+.line_through
+{
+	text-decoration: line-through;
+}
+
+.overline
+{
+	text-decoration: overline;
+}
+
+.blink
+{
+	text-decoration: blink;
+}
+
+.none
+{
+	text-decoration: none;
+}

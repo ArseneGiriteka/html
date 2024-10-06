@@ -1,0 +1,50 @@
+@font-face 
+{
+	font-family: "Italianno Regular";
+	src:url('Italianno-Regular-OTF.otf');
+}
+
+.hello
+{
+	font-family: "Italianno Regular";
+}
+
+.arial
+{
+	font-family: Arial;
+}
+
+.arial_black
+{
+	font-family: "Arial Black";
+}
+
+.comic_sans_ms
+{
+	font-family: "Comic Sans MS";
+}
+
+.courier_new
+{
+	font-family: "Courier New";
+}
+
+.georgia
+{
+	font-family: Georgia;
+}
+
+.impact
+{
+	font-family: Impact;
+}
+
+.times_new_roman
+{
+	font-family: "Trebuchet MS";
+}
+
+.verdana
+{
+	font-family: Verdana;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<title>form</title>
+</head>
+<body>
+	<p>
+		<form method="post" action="traitement.php">
+			<p><label for="pseudo">your psuedo:</label><input type="text" name="pseudo" id="pseudo" size="60" maxlength="10" placeholder="8 caracters max"><!--or value to set a default value-->
+			<br>
+				<label for="pass">password:</label>
+				<input type="password" name="pass" id="pass" placeholder="password">
+			</p>
+		</form>
+
+		<form>
+			<p>
+				<label for="sante">comment sentez-vous?<br></label>
+				<textarea name="sante" id="sante" minlength="20" placeholder="ecrivez tous ce que vous voulez" rows="6" cols="100"></textarea>
+			</p>
+		</form>
+		<h1>email</h1>
+		<form>
+			<label for="mail">email:</label><input type="email" name="mail" id="mail">
+		</form>
+		<h1>URL</h1>
+		<form>
+			<label for="URL">url:</label><input type="url" name="URL" id="URL">
+		</form>
+		<h1>num telephone</h1>
+		<form>
+			<label for="telph">tel:</label><input type="tel" name="telph" id="telph">
+		</form>
+		<h1>number</h1>
+		<form>
+			<label for="nero">saisi:</label><input type="number" name="nero" id="nero" min="8" step="4" max="40">
+		</form>
+		<h1>curseur-range</h1>
+		<form>
+			<label for="nerpo">range:</label><input type="range" name="nerpo" id="nerpo" min="8" step="4" max="200">
+		</form>
+		<h1>color</h1>
+		<form>
+			<input type="color" name="cool" id="cool">
+		</form>
+		<h1>date</h1>
+		<form>
+			<label>date:</label><input type="date" name="date_t" id="date_t">
+		</form>
+		<h1>time</h1>
+		<form>
+			<label>time:</label><input type="time" name="time_t" id="date_t">
+		</form>
+		<h1>week</h1>
+		<form>
+			<label>time:</label><input type="week" name="week_t" id="week_t">
+		</form>
+		<h1>mounth</h1>
+		<form>
+			<label>month</label><input type="month" name="month_t" id="month_t">
+		</form>
+		<h1>datetime</h1>
+		<form>
+			<label>datetime:</label><input type="datetime" name="datetime_t" id="datetime_t">
+		</form>
+		<h1>datetime-local</h1>
+		<form>
+			<label>dateTime-local:</label><input type="datetime-local" name="datetime-local_t" id="datetime-local_t">
+		</form>
+		<h1>recherche</h1>
+		<form>
+			<input type="search" />
+		</form>
+	</p>
+</body>
+</html>

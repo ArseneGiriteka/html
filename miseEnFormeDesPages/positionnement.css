@@ -1,0 +1,97 @@
+nav
+{
+    position: absolute;
+    padding: 30px;
+    top:10%;
+    left:30%;
+}
+
+aside
+{
+    position: absolute;
+    padding: 30px;
+    top:60%;
+    left:30%;
+}
+
+#one
+{
+    text-align: center;
+    background-color: #198017;
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+}
+
+#two
+{
+    text-align: center;
+    background-color: #7E1780;
+    z-index: 2;
+    position: absolute;
+    top: 60%;
+    left: 71%;
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+}
+
+#three
+{
+    text-align: center;
+    background-color: #7A8017;
+    z-index: 3;
+    position: absolute;
+    top:70%;
+    left:70%;
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+}
+
+#fixedC
+{
+    position: fixed;
+    right:0px;
+    bottom:0px;
+}
+
+.f_one
+{
+    text-align: center;
+    background-color: #198017;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+}
+
+.f_two
+{
+    text-align: center;
+    background-color: #7E1780;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+}
+
+.f_three
+{
+    text-align: center;
+    background-color: #7A8017;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+}
+/*
+position:absolute par rapport a right,left,top,bottom;
+position:fixed always althougth you scroll down;
+*/
+
+

@@ -1,0 +1,71 @@
+@font-face
+{
+	font-family: "Italianno Regular";
+	src:url("D:/serieux/html/css/Italianno-Regular-OTF.otf");
+}
+
+img
+{
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 500px 500px 500px 500px;
+	box-shadow: 6px 6px 10px black;
+}
+
+body
+{
+	font-family: "Italianno Regular";
+	background:url("D:/movie/IMG-20191204-WA0033.jpg");
+	font-size: 1.2em;
+}
+
+.formation
+{
+	color: blue;
+}
+
+h1
+{
+	text-align: center;
+}
+
+#bloc_page
+{
+	display: flex;
+}
+
+#info
+{
+	display: flex;
+	width: 60%;
+}
+
+#tri
+{
+	display: flex;
+}
+
+#experience
+{
+	width: 33%;
+	margin: 15px;
+}
+
+#skills
+{
+	width: 34%;
+	margin: 15px;
+}
+
+#formation
+{
+	width: 33%;
+	margin: 15px;
+}
+
+#lisere
+{
+	width: 100px;
+	background-color: #C46969;
+	margin: 15px;
+}

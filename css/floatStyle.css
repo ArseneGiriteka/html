@@ -1,0 +1,15 @@
+.picture
+{
+	float: left;
+}
+
+.presantation
+{
+	font-weight: bold;
+}
+
+.text_down
+{
+	text-align: justify;
+	clear: both;
+}

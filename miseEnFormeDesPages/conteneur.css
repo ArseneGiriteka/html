@@ -1,0 +1,62 @@
+#conteneur
+{
+	border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: maroon;
+    margin: 50px;
+}
+.element_one
+{
+	background-color: #03F9DE;
+	width: 100px;
+	padding: 40px;
+}
+
+.element_two
+{
+	background-color: #1F40DE;
+	width: 100px;
+	padding: 40px;
+}
+
+.element_three
+{
+	background-color: #11FFE8;
+	width: 100px;
+	padding: 40px;
+}
+
+#cb
+{
+	border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: maroon;
+    margin: 50px;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.cb_one
+{
+	background-color: #03F9DE;
+	width: 100px;
+	padding: 40px;
+}
+
+.cb_two
+{
+	background-color: #1F40DE;
+	width: 100px;
+	padding: 40px;
+}
+
+.cb_three
+{
+	background-color: #11FFE8;
+	width: 100px;
+	padding: 40px;
+}

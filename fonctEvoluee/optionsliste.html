@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>option</title>
+</head>
+<body>
+	cocher:<br>
+	<form>
+		<input type="checkbox" name="checkbox_t" id="checkbox_t"><label for="checkbox_t">fromage</label><br>
+		<input type="checkbox" name="checkbox_t" id="checkbox_t" checked="checked"><label for="checkbox_t">ckeck</label><br>
+	</form>
+	<h1>option</h1>
+	<form method="post" action="traitement.php">
+	   <p>
+	       Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :<br />
+	       <input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label><br />
+	       <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 ans</label><br />
+	       <input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-40 ans</label><br />
+	       <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Encore plus vieux que ça ?!</label>
+	   </p>
+	</form>
+	<h1>liste deroulante</h1>
+	<form method="post" action="traitement.php">
+		<label for="animalis">animalis</label>
+		<select name="animalis" id="animalis">
+			<optgroup label="animalis">
+				<option value="lion">lion</option>
+				<option value="tigre" selected>tigre</option>
+				<option value="crocodile">crocodile</option>
+				<option value="vache">vache</option>
+			</optgroup>
+			<optgroup label="voiture_lux">
+				<option value="Mercedez-Benz">Mercedez-Ben</option>
+				<option value="Ferrari">Ferrari</option>
+				<option value="Bugatti_Verryon">Bugatti_Verryon</option>
+				<option value="RollsRoys">Rolls Roys</option>
+			</optgroup>
+		</select>
+	</form>
+	<form>
+		<fieldset>
+			<legend>your contact</legend>
+			<p>
+				<label for="nom">nom:</label><input type="text" name="nom" id="nom" autofocus required><br>
+			</p>
+			<p>
+				<label for="prenom">prenom:</label><input type="text" name="prenom" id="prenom" required><br>
+			</p>
+		</fieldset>
+		<fieldset>
+			<p>
+				<legend>age&country</legend>
+				<input type="radio" name="age" value="-18" id="-18"><label for="-18">-18</label><br>
+				<input type="radio" name="age" value="-30" id="-30"><label for="-30">-30</label><br>
+				<input type="radio" name="age" value="-40" id="-40"><label for="-40">-40</label><br>
+			</p>
+			<p>
+				<label for="pays">pays:</label>
+				<select name="pays" id="pays">
+					<option value="Burundi">Burundi</option>
+					<option value="Rwanda">Rwanda</option>
+					<option value="Ouganda">Ouganda</option>
+					<option value="Tanzania">Tanzania</option>
+					<option value="Kenya">Kenya</option>
+					<option value="Southern Soudan">Southern soudan</option>
+				</select>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>textaria</legend>
+			<label for="autre">Autre</label>
+			<p>
+				<textarea name="autre" id="autre" cols="40" rows="4"></textarea>
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>

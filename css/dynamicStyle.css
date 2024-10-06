@@ -1,0 +1,28 @@
+a
+{
+	color: maroon;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.one:hover /*survol*/
+{
+	color: green;
+	text-decoration: underline;
+}
+
+a:active /*whin is selected or pressed only works on tags<a></a>*/
+{
+	background-color: blue;
+}
+
+a:focus /*when element is selected*/
+{
+	background-color: black;
+	color: white;
+}
+
+a:visited
+{
+	color: #AAA;
+}

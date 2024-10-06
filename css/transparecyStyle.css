@@ -1,0 +1,16 @@
+body
+{
+	background-color: #D9D9D9
+}
+
+h1
+{
+	font-weight: bold;
+}
+
+p
+{
+	background-color: black;
+	color: white;
+	opacity: 0.4;
+}

@@ -1,0 +1,17 @@
+body{
+
+	background-size: cover;
+}
+
+.page_login_bloc{
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.3;
+}
+
+.login_bloc{
+	position: absolute;
+	bottom: 50%;
+	right: 50%;
+}

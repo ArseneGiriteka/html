@@ -1,0 +1,28 @@
+p
+{
+    width: 250px;
+    height: 110px;
+    text-align: justify;
+    border: 1px solid black;
+
+}
+
+.one
+{
+	overflow: auto;
+}
+
+.two
+{
+	overflow: hidden;
+}
+
+.three
+{
+	overflow: scroll;
+}
+
+.four
+{
+	overflow: visible;
+}
